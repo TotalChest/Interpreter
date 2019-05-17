@@ -1,0 +1,48 @@
+program            /* koment */
+{
+	int a = 51, b = -6, c, g=+9;
+	bool f = true;
+	bool k;
+	string x = "k = ", y, z = "abcd";
+
+	c=1;
+
+	read(a);
+
+	c=-a+b/2;
+
+	while(a>0){
+		if(a>=6)
+			break;
+		else{
+			write(a);
+			a=a-1;
+			c=c+1;
+			while(true){
+				write("yes");
+				break;
+			}
+		}
+	}
+
+	write(a,c);
+
+	read(k);
+	
+	k = not(k);
+
+	if(k and true){
+		write(x+"true");
+	}
+	else
+		write(c>=b, "abc" >= z);
+
+	if(-c==7){}
+	else
+		y="no!";
+	
+	read(x);
+
+	write(y+" c == -7 "+x);
+
+}
